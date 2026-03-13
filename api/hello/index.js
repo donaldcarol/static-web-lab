@@ -1,9 +1,6 @@
 module.exports = async function (context, req) {
-
     context.res = {
-        body: {
-            message: "Hello from Azure Function API"
-        }
+        status: 200,
+        body: "Hello from hello API"
     };
-
 };
